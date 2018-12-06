@@ -1,0 +1,11 @@
+print graphed history
+git log --oneline --decorate --all --graph
+
+Find the last commit that affected the given path. 
+git rev-list -n 1 HEAD -- <file_path>
+
+Find commits that deleted files
+git log --diff-filter=D --summary
+
+Undo last commit but leave changes as added
+git reset --soft HEAD^
