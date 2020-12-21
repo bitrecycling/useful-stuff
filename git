@@ -9,3 +9,5 @@ git log --diff-filter=D --summary
 
 Undo last commit but leave changes as added
 git reset --soft HEAD^
+
+git clone https://oauth2:${your-token}@<server>/project/repo.git
